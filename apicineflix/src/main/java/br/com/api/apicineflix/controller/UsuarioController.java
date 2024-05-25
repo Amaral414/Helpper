@@ -9,6 +9,8 @@ public class UsuarioController {
     @GetMapping("/cadastro")
     public String texto(){
         return "Acessando a API com sucesso";
+        
+        // Até aqui tudo tranquilo
 
     }
 }
