@@ -35,11 +35,10 @@ public class UsuarioController {
     @Autowired
     private IUsuario dao;
  
-    @GetMapping // método Get
+    @GetMapping // Metodo GET: Pega todos os usuários cadastrados
     public List<Usuario> listaUsuarios(){
         return (List<Usuario>) dao.findAll();
         
-        // Até aqui tudo tranquilo
     }
 
     @PostMapping // método Post
